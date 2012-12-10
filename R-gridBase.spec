@@ -40,3 +40,11 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/R
 %{rlibdir}/%{packname}/demo
 %{rlibdir}/%{packname}/help
+
+
+%changelog
+* Mon Feb 20 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.4_4-1
++ Revision: 777728
+- Import R-gridBase
+- Import R-gridBase
+
