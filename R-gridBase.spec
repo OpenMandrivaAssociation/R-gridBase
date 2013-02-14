@@ -1,14 +1,16 @@
 %global packname  gridBase
 %global rlibdir  %{_libdir}/R/library
 
+%define debug_package %{nil}
+
 Name:             R-%{packname}
-Version:          0.4_4
+Version:          0.4.6
 Release:          1
 Summary:          Integration of base and grid graphics
 Group:            Sciences/Mathematics
 License:          GPL
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.4-4.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/gridBase_0.4-6.tar.gz
 Requires:         R-graphics R-grid 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-graphics R-grid
 
@@ -40,11 +42,3 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/R
 %{rlibdir}/%{packname}/demo
 %{rlibdir}/%{packname}/help
-
-
-%changelog
-* Mon Feb 20 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.4_4-1
-+ Revision: 777728
-- Import R-gridBase
-- Import R-gridBase
-
