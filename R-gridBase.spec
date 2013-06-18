@@ -5,7 +5,7 @@
 
 Name:             R-%{packname}
 Version:          0.4.6
-Release:          1
+Release:          2
 Summary:          Integration of base and grid graphics
 Group:            Sciences/Mathematics
 License:          GPL
