@@ -9,7 +9,7 @@ Release:          2
 Summary:          Integration of base and grid graphics
 Group:            Sciences/Mathematics
 License:          GPL
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/gridBase_0.4-6.tar.gz
 Requires:         R-graphics R-grid 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-graphics R-grid
